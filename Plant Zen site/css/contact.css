@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url("../images/bg2.jpg") no-repeat center/cover;
+}
+
+.back {
+  margin-left: 1rem;
+  padding-top: 1rem;
+  width: 10%;
+}
+.back-link {
+  color: rgb(65, 211, 65);
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: font-size 0.3s ease;
+  text-decoration: none;
+}
+.back-link:hover {
+  font-size: 2rem;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  border: 1px solid grey;
+  padding: 3rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("../images/bg1.jpg");
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0px 10px 15px rgb(145, 139, 139);
+}
+
+.form h1 {
+  text-align: center;
+  color: rgb(50, 192, 50);
+}
+
+.form-wrap {
+  display: block;
+  margin: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+.form-wrap label {
+  display: block;
+}
+
+.form-wrap input {
+  padding: 0.5rem 2rem;
+  border: transparent;
+  box-shadow: 0px 10px 15px #ddd;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.form-wrap small {
+  display: block;
+}
+
+.btn {
+  width: 100%;
+  font-size: 1.3rem;
+  background: rgb(30, 133, 30);
+  border: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: rgb(21, 189, 21);
+}
